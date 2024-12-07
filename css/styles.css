@@ -1,0 +1,63 @@
+/*Верхушка*/
+
+body {margin:0;}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #66055cb7;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a hover not(.active) {
+    background-color: #a680a2b7;
+}
+
+.active {
+    background-color: #bd97b9b7;
+}
+
+#h4 {
+    text-align: center;
+    margin-top: 55px;
+    margin-bottom: 8px;
+    font-size: 22px;
+    font-family: 'Montserrat Regular', Arial, Helvetica sans-serif;
+    font-weight: 400;
+    margin-left: auto;
+    margin-right: auto;
+    color: #666666;
+    transition: width 2s;
+}
+
+#foo {
+    text-decoration: underline;
+}
+
+#foo:hover {
+  color: transparent;
+}
+
+#fen {
+    width: 580px;
+    height: 460px;
+    float: center;
+    margin-left: auto;
+    margin-right: auto;
+}
